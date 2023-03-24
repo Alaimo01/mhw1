@@ -1,0 +1,209 @@
+header{
+    background-image: url('img/sfondo.jpg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+
+#txth{
+    color: rgb(231, 17, 17);
+}
+
+#hstart{
+    height: 500px;
+    padding: 1px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.avc{
+    display: flex;
+    flex-direction:column;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    font-style: oblique;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+img{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    margin-top: -50px;
+}
+
+nav{
+    font-weight: bold;
+    font-size: 20px;
+    height: 75px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;/*centro i flexbox nella nav*/
+}
+
+a.botton:hover{
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    height: 20px;
+    background-color: rgb(153, 151, 151);
+    padding: 5px 10px;
+    opacity: 75%;
+}
+
+footer{
+    margin: 0px;
+    margin-top: 60px;
+    height: 75px; 
+    background-color: black;
+}
+
+
+.numero_1{
+    position: absolute;
+    left: -40px;
+    top: 0px;
+    
+}
+
+.numero_2{
+    position: absolute;
+    left: -40px;
+    top: 0px;
+}
+
+.numero_3{
+    position: absolute;
+    left: -40px;
+    top: 0px;
+}
+
+.numero_4{
+    position: absolute;
+    left: -40px;
+    top: 0px;
+}
+
+.numero_5{
+    position: absolute;
+    left: -40px;
+    top: 0px;
+}
+
+.corpo{
+    display: flex;
+    margin-left: 17%;
+    margin-right: 17%;
+    flex-direction: column;
+    width: 66.67%;
+    padding: 10px;
+    position: relative;
+    background-color:rgb(174, 239, 241);
+}
+
+
+.testo{
+ margin-bottom: 20px;
+ margin-top: 20px;
+}
+
+.finale{
+    font-weight: 100;
+    font-style: normal;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: center;
+    line-height: 80px;
+    word-spacing: 5px;
+}
+
+.testo{
+    margin-right: 20px;
+}
+
+.villa1{
+  background-image: url(img/villa1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 120px;
+  background-color: brown;
+}
+.villa2{
+    background-image: url(img/villa2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 120px;
+    background-color: brown;
+  }
+
+  .villa3{
+    background-image: url(img/villa3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 120px;
+    background-color: brown;
+  }
+
+  .villa4{
+    background-image: url(img/villa\ 4.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 120px;
+    background-color: brown;
+  }
+
+  .villa5{
+    background-image: url(img/villa5.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 120px;
+    background-color: brown;
+  }
+
+  @media(max-width: 500px){
+
+   body{
+    font-size: 14px;
+   }
+   .corpo{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+   }
+   
+   #PhoneMode{
+    display: block;
+    position: relative;
+    z-index: 3px;
+   }
+
+   header nav{
+    display: none;
+   }
+  }
